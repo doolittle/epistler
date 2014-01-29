@@ -1,6 +1,8 @@
 Epistler
 ===========
 
+![Epistler Screenshot](https://raw.github.com/doolittle/epistler/master/external/epistler-screenshot.png)
+
 Epistler lets you writer your own augmented reality epistles, in the manner of
 [Between Page and Screen](http://betweenpageandscreen.com/).
 
