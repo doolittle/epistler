@@ -25,8 +25,6 @@ public class Epistler extends Sprite {
     removeEventListener(Event.ADDED_TO_STAGE, init);
 
     EDITOR_MODE = (stage.loaderInfo.parameters["epistle_editor"]);
-    //EDITOR_MODE = true; //TEMP FOR DEBUGGING
-    var widescreen:Boolean = false;
 
     // Set config.
     BookConfig.FPS = 31;
@@ -49,7 +47,7 @@ public class Epistler extends Sprite {
     stage.quality = BookConfig.QUALITY;
     stage.frameRate = BookConfig.FPS;
 
-    if (widescreen) {
+    if (BookConfig.CAM_WIDESCREEN) {
       BookConfig.CAMERA_WIDTH = 720;
       BookConfig.CAMERA_HEIGHT = 405;
     } else {
